@@ -1,0 +1,112 @@
+{
+  "irrigation_rules": [
+    {
+      "id": "IR001",
+      "condition": "rain_expected",
+      "keywords": ["rain", "rainfall", "raining", "forecast"],
+      "decision": "postpone",
+      "response": "Since rainfall is expected, irrigation can be postponed to conserve water and avoid waterlogging. Monitor actual rainfall. If rainfall is less than 25mm, proceed with irrigation afterward."
+    },
+    {
+      "id": "IR002",
+      "condition": "soil_dry",
+      "keywords": ["dry soil", "cracked soil", "wilting crop", "leaves curling"],
+      "decision": "irrigate_immediately",
+      "response": "The symptoms indicate soil moisture is critically low. Irrigate immediately at the earliest opportunity. Apply water slowly to allow deep penetration rather than surface runoff."
+    },
+    {
+      "id": "IR003",
+      "condition": "waterlogged",
+      "keywords": ["waterlogged", "standing water", "flooded", "excess water", "drainage"],
+      "decision": "stop_irrigation",
+      "response": "Field appears waterlogged. Stop irrigation immediately. Open drainage channels to remove excess water. Waterlogging restricts root oxygen and can cause root rot within 48 hours."
+    },
+    {
+      "id": "IR004",
+      "condition": "critical_stage",
+      "keywords": ["flowering", "grain filling", "silk", "tassel", "heading"],
+      "decision": "do_not_skip",
+      "response": "The crop is at a critical growth stage. Missing irrigation now will cause significant yield loss. Even if other conditions are marginal, ensure water availability at this stage."
+    },
+    {
+      "id": "IR005",
+      "condition": "hot_weather",
+      "keywords": ["hot", "heat", "temperature high", "summer", "scorching"],
+      "decision": "increase_frequency",
+      "response": "In hot weather, evapotranspiration increases significantly. Increase irrigation frequency and apply water during early morning or evening to reduce evaporation losses."
+    }
+  ],
+  "fertilizer_rules": [
+    {
+      "id": "FR001",
+      "condition": "yellowing_crop",
+      "keywords": ["yellow", "pale", "light green", "nitrogen"],
+      "nutrient": "nitrogen",
+      "decision": "apply_nitrogen",
+      "response": "Yellowing in growing crops commonly indicates nitrogen deficiency. Apply urea at 25 to 30 kg per acre as top dressing. Follow with irrigation to dissolve and move nitrogen into root zone."
+    },
+    {
+      "id": "FR002",
+      "condition": "poor_root_growth",
+      "keywords": ["poor root", "weak roots", "phosphorus", "slow growth"],
+      "nutrient": "phosphorus",
+      "decision": "apply_phosphorus",
+      "response": "Poor early growth and root development often indicates phosphorus deficiency. Apply diammonium phosphate at sowing. Phosphorus should be incorporated into soil before planting."
+    },
+    {
+      "id": "FR003",
+      "condition": "leaf_edges_brown",
+      "keywords": ["brown edges", "leaf scorch", "tip burn", "potassium"],
+      "nutrient": "potassium",
+      "decision": "apply_potassium",
+      "response": "Brown leaf edges or tip burn is a common symptom of potassium deficiency. Apply muriate of potash at 15 to 20 kg per acre. Potassium also improves drought resistance and grain quality."
+    },
+    {
+      "id": "FR004",
+      "condition": "interveinal_chlorosis",
+      "keywords": ["interveinal", "yellow between veins", "iron deficiency", "zinc"],
+      "nutrient": "micronutrient",
+      "decision": "apply_micronutrient",
+      "response": "Yellowing between leaf veins while veins remain green indicates iron or zinc deficiency. Apply ferrous sulfate at 500g or zinc sulfate at 500g per 100 liters of water as foliar spray."
+    }
+  ],
+  "weather_rules": [
+    {
+      "id": "WR001",
+      "condition": "frost_risk",
+      "keywords": ["frost", "freezing", "cold night", "low temperature", "winter"],
+      "decision": "protect_crop",
+      "response": "Frost risk is high. Irrigate the field before a frost event since wet soil holds more heat. For vegetables, use mulching or row covers. Avoid nitrogen application which increases frost sensitivity."
+    },
+    {
+      "id": "WR002",
+      "condition": "hailstorm",
+      "keywords": ["hail", "hailstorm", "storm damage", "crop beaten"],
+      "decision": "post_damage_management",
+      "response": "After a hailstorm, assess damage within 24 hours. Apply a protective fungicide spray to prevent disease entry through wounds. Add a nitrogen dose to encourage recovery growth. Do not abandon the crop without assessing recovery potential."
+    },
+    {
+      "id": "WR003",
+      "condition": "drought",
+      "keywords": ["drought", "no rain", "dry season", "water shortage"],
+      "decision": "water_conservation",
+      "response": "In drought conditions, prioritize water at critical crop stages. Reduce fertilizer rates to match reduced yield potential. Consider mulching to reduce evaporation. Avoid weed competition."
+    }
+  ],
+  "land_preparation_rules": [
+    {
+      "id": "LP001",
+      "condition": "hard_soil",
+      "keywords": ["hard soil", "compacted", "pan layer", "difficult tillage"],
+      "decision": "subsoil",
+      "response": "Soil compaction creates a hardpan that restricts root growth and water infiltration. Use a subsoiler or chisel plow to break the compaction layer. This should be done once every 3 to 4 years."
+    },
+    {
+      "id": "LP002",
+      "condition": "saline_soil",
+      "keywords": ["saline", "salty", "white crust", "sodic", "alkaline soil"],
+      "decision": "reclaim_soil",
+      "response": "Saline or sodic soil requires reclamation. Apply gypsum at 2 to 4 tonnes per acre and leach with excess water to move salts below root zone. Grow salt-tolerant crops such as barley or kallar grass initially."
+    }
+  ]
+}

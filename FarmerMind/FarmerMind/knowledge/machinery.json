@@ -1,0 +1,81 @@
+{
+  "tractor": {
+    "common_problems": {
+      "engine_overheating": {
+        "symptoms": ["temperature gauge high", "steam from radiator", "loss of power"],
+        "causes": ["low coolant level", "blocked radiator fins", "faulty thermostat", "fan belt broken"],
+        "solution": "Stop engine immediately. Let cool. Check coolant level. Clean radiator fins. Inspect fan belt tension. Replace thermostat if faulty."
+      },
+      "engine_not_starting": {
+        "symptoms": ["no crank", "cranks but no start", "starter clicks"],
+        "causes": ["dead battery", "fuel blockage", "air filter clogged", "fuel injection problem"],
+        "solution": "Check battery charge and terminals. Check fuel level and lines. Clean or replace air filter. Bleed fuel system."
+      },
+      "excessive_smoke": {
+        "symptoms": ["black smoke", "white smoke", "blue smoke"],
+        "causes": {
+          "black": "excess fuel or restricted air intake",
+          "white": "water in fuel or head gasket failure",
+          "blue": "engine oil burning due to worn rings or seals"
+        },
+        "solution": "Black smoke: clean air filter, check fuel injection. White smoke: check head gasket, drain fuel if water contaminated. Blue smoke: engine overhaul needed."
+      },
+      "hydraulic_failure": {
+        "symptoms": ["implement not lifting", "slow hydraulic response", "oil leaking"],
+        "causes": ["low hydraulic oil", "blocked hydraulic filter", "worn hydraulic pump"],
+        "solution": "Check hydraulic oil level. Replace hydraulic filter. Inspect pump for wear. Check for oil leaks at connections."
+      },
+      "steering_problem": {
+        "symptoms": ["heavy steering", "pulling to one side", "vibration"],
+        "causes": ["low power steering fluid", "uneven tyre pressure", "wheel alignment issue", "worn steering joints"],
+        "solution": "Check and inflate tyres equally. Top up power steering fluid. Inspect steering linkage for wear."
+      }
+    },
+    "maintenance_schedule": {
+      "daily": ["engine oil level", "coolant level", "tyre pressure", "fuel level", "general inspection"],
+      "every_50_hours": ["grease all lubrication points", "check battery terminals", "inspect air filter"],
+      "every_250_hours": ["change engine oil and filter", "replace air filter", "check valve clearance"],
+      "every_500_hours": ["replace fuel filter", "check hydraulic oil", "inspect brakes"],
+      "annually": ["full engine service", "hydraulic system service", "electrical inspection", "brake overhaul"]
+    }
+  },
+  "tube_well": {
+    "common_problems": {
+      "low_discharge": {
+        "symptoms": ["reduced water flow", "pump running but little water"],
+        "causes": ["drop in water table", "clogged strainer", "worn impeller", "air lock in pump"],
+        "solution": "Check water table depth. Clean strainer. Prime pump to remove air lock. If impeller worn, call technician."
+      },
+      "pump_not_starting": {
+        "symptoms": ["motor hums but does not start", "no power to motor"],
+        "causes": ["capacitor failure", "low voltage", "burned motor winding", "stuck pump shaft"],
+        "solution": "Check voltage supply. Replace start capacitor. If winding burned, motor rewinding needed."
+      },
+      "excessive_sand": {
+        "symptoms": ["sand particles in water", "rapid wear on pump"],
+        "causes": ["broken well screen", "shallow pump setting", "fine sand aquifer"],
+        "solution": "Check and repair well screen. Lower pump setting. Install sand separator."
+      }
+    }
+  },
+  "thresher": {
+    "common_problems": {
+      "grain_damage": {
+        "causes": ["threshing cylinder speed too high", "concave clearance too tight", "wet crop"],
+        "solution": "Reduce cylinder speed. Increase concave clearance. Allow crop to dry before threshing."
+      },
+      "poor_grain_separation": {
+        "causes": ["sieve blocked", "fan speed incorrect", "overloading machine"],
+        "solution": "Clean sieves regularly. Adjust fan speed. Reduce feed rate."
+      }
+    }
+  },
+  "spray_machine": {
+    "types": ["knapsack sprayer", "tractor-mounted boom sprayer", "motorized sprayer"],
+    "maintenance": {
+      "after_each_use": ["rinse with clean water", "clean nozzles", "drain pump", "check nozzle tips for wear"],
+      "regular": ["replace worn nozzle tips", "check pressure gauge", "inspect hoses and connections", "lubricate pump"]
+    },
+    "calibration": "Calibrate sprayer before each season. A worn nozzle can deliver 20 to 30 percent more than rated output, leading to overdose and crop damage."
+  }
+}

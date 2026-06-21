@@ -1,0 +1,139 @@
+{
+  "symptoms": [
+    {
+      "id": "S001",
+      "keywords": ["yellow", "leaves", "yellowing", "chlorosis"],
+      "crop_specific": {},
+      "general_causes": [
+        "Nitrogen deficiency",
+        "Iron or zinc micronutrient deficiency",
+        "Waterlogging restricting root oxygen",
+        "Root rot or root disease"
+      ],
+      "action": "Check soil drainage first. Apply nitrogenous fertilizer if growth is slow. Use ferrous sulfate foliar spray for interveinal yellowing."
+    },
+    {
+      "id": "S002",
+      "keywords": ["rust", "orange", "pustules", "powder", "stripe"],
+      "crop_specific": {
+        "wheat": "Yellow stripe rust is Puccinia striiformis. Spray tebuconazole or propiconazole immediately. Acts fast in cool and moist weather."
+      },
+      "general_causes": [
+        "Fungal rust disease spread by wind",
+        "Cool and moist weather conditions",
+        "Susceptible variety"
+      ],
+      "action": "Apply systemic fungicide such as tebuconazole at first sign. Repeat after 14 days if disease continues."
+    },
+    {
+      "id": "S003",
+      "keywords": ["wilting", "drooping", "collapse", "dying"],
+      "crop_specific": {
+        "cotton": "Wilting in cotton may indicate Fusarium wilt or severe water stress. Inspect roots for discoloration.",
+        "tomato": "Bacterial wilt causes sudden wilting even with adequate moisture. No cure; remove infected plants."
+      },
+      "general_causes": [
+        "Severe water stress",
+        "Root rot",
+        "Vascular wilt disease",
+        "Soil-borne pathogens"
+      ],
+      "action": "Irrigate if soil is dry. If wet soil and wilting, suspect root rot or vascular wilt. Uproot and inspect roots."
+    },
+    {
+      "id": "S004",
+      "keywords": ["holes", "eaten", "caterpillar", "larva", "worm", "insect", "chewed", "dropping", "drop", "boll"],
+      "crop_specific": {
+        "cotton": "Check inside squares and bolls for pink bollworm or American bollworm larvae. Dropping bolls indicate active infestation.",
+        "maize": "Fall armyworm hides inside the whorl. Check whorl for frass and larvae."
+      },
+      "general_causes": [
+        "Pink bollworm or American bollworm larval infestation",
+        "Water stress during boll development stage",
+        "Excessive heat causing physiological boll shedding",
+        "Nitrogen overdose promoting vegetative growth over fruiting"
+      ],
+      "action": "Open dropped bolls and inspect for larvae. Apply chlorpyrifos or spinosad if larvae present. Verify irrigation schedule at boll development stage."
+    },
+    {
+      "id": "S005",
+      "keywords": ["white", "powder", "coating", "mildew", "fungus"],
+      "crop_specific": {},
+      "general_causes": [
+        "Powdery mildew fungal disease",
+        "Humid conditions with warm days and cool nights",
+        "Dense canopy blocking air flow"
+      ],
+      "action": "Spray sulfur-based fungicide or wettable sulfur. Improve plant spacing. Avoid excess nitrogen which creates dense growth."
+    },
+    {
+      "id": "S006",
+      "keywords": ["black", "smut", "sooty", "dark powder", "head smut"],
+      "crop_specific": {
+        "wheat": "Loose smut in wheat produces black powder replacing grain. Use fungicide-treated seed next season.",
+        "maize": "Common smut produces galls that turn black and dusty."
+      },
+      "general_causes": [
+        "Smut fungal disease",
+        "Untreated or infected seed",
+        "Soil-borne spores"
+      ],
+      "action": "Remove and destroy infected plants. Use certified treated seed next season. Apply seed treatment fungicide before sowing."
+    },
+    {
+      "id": "S007",
+      "keywords": ["cracking", "splitting", "fruit crack", "skin crack"],
+      "crop_specific": {
+        "tomato": "Fruit cracking caused by irregular watering. Consistent irrigation prevents cracking.",
+        "onion": "Bulb splitting caused by sudden water after dry period."
+      },
+      "general_causes": [
+        "Irregular or sudden heavy irrigation after dry spell",
+        "Boron deficiency",
+        "High soil moisture fluctuation"
+      ],
+      "action": "Maintain consistent irrigation schedule. Apply boron as micronutrient. Avoid alternating dry and wet periods."
+    },
+    {
+      "id": "S008",
+      "keywords": ["curl", "curling", "mosaic", "mottled", "virus", "stunted twisted"],
+      "crop_specific": {
+        "cotton": "Cotton leaf curl virus is spread by whitefly. Control whitefly with imidacloprid or thiamethoxam."
+      },
+      "general_causes": [
+        "Viral infection transmitted by insects",
+        "Whitefly or aphid vectors",
+        "No direct cure available"
+      ],
+      "action": "Control vector insects immediately. Remove and destroy infected plants. Use resistant varieties in future. No chemical cure for viruses."
+    },
+    {
+      "id": "S009",
+      "keywords": ["brown", "dead", "tip", "edge", "scorch", "tip burn"],
+      "crop_specific": {
+        "rice": "Brown leaf tips in rice may indicate potassium deficiency or leaf scorch disease."
+      },
+      "general_causes": [
+        "Potassium deficiency",
+        "Salt stress or sodic soil",
+        "Water stress and heat",
+        "Excessive nitrogen application"
+      ],
+      "action": "Apply muriate of potash if potassium deficient. Check soil salinity. Irrigate if drought stress. Avoid overdose of nitrogen."
+    },
+    {
+      "id": "S010",
+      "keywords": ["aphid", "sticky", "honeydew", "sooty mold", "small insects"],
+      "crop_specific": {
+        "wheat": "Russian wheat aphid causes leaf rolling and discoloration. Spray imidacloprid or dimethoate.",
+        "cotton": "Aphids weaken plants and secrete honeydew attracting sooty mold."
+      },
+      "general_causes": [
+        "Aphid infestation",
+        "Secondary sooty mold on honeydew",
+        "Spread rapidly in warm dry weather"
+      ],
+      "action": "Spray imidacloprid, dimethoate, or insecticidal soap. Repeat after 7 days. Avoid excess nitrogen which promotes soft growth preferred by aphids."
+    }
+  ]
+}

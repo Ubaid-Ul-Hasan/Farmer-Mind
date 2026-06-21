@@ -1,0 +1,269 @@
+{
+  "wheat": {
+    "scientific_name": "Triticum aestivum",
+    "category": "cereal",
+    "season": "rabi",
+    "sowing_time": "October to December",
+    "harvest_time": "March to April",
+    "duration_days": 120,
+    "seed_rate_kg_per_acre": 40,
+    "irrigation": {
+      "total_count": "4 to 6",
+      "critical_stages": ["crown root initiation", "tillering", "jointing", "flowering", "grain filling"],
+      "first_irrigation_days": 21,
+      "water_requirement_mm": 450
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 65,
+      "phosphorus_kg_per_acre": 35,
+      "potassium_kg_per_acre": 25,
+      "application": "Split nitrogen: half at sowing, half at first irrigation"
+    },
+    "yield_potential_maunds_per_acre": 40,
+    "soil_type": ["loam", "clay loam", "silt loam"],
+    "ph_range": "6.0 to 7.5",
+    "common_diseases": ["yellow rust", "leaf rust", "powdery mildew", "smut", "blight"],
+    "common_pests": ["aphids", "armyworm", "Hessian fly"],
+    "notes": "Wheat requires cool weather during grain filling. High temperature at heading reduces yield significantly."
+  },
+  "rice": {
+    "scientific_name": "Oryza sativa",
+    "category": "cereal",
+    "season": "kharif",
+    "sowing_time": "June to July",
+    "harvest_time": "October to November",
+    "duration_days": 130,
+    "seed_rate_kg_per_acre": 8,
+    "transplanting_age_days": 25,
+    "irrigation": {
+      "total_count": "continuous flooding or alternate wetting and drying",
+      "water_depth_cm": "5 to 10",
+      "water_requirement_mm": 1200,
+      "critical_stages": ["transplanting", "tillering", "panicle initiation", "flowering"]
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 80,
+      "phosphorus_kg_per_acre": 35,
+      "potassium_kg_per_acre": 25,
+      "zinc_kg_per_acre": 5,
+      "application": "Apply zinc sulfate before transplanting. Split nitrogen in 3 doses."
+    },
+    "yield_potential_maunds_per_acre": 35,
+    "soil_type": ["clay", "clay loam", "heavy soil"],
+    "ph_range": "5.5 to 7.0",
+    "common_diseases": ["blast", "sheath blight", "bacterial leaf blight", "brown spot"],
+    "common_pests": ["stem borer", "brown planthopper", "leaf folder", "gall midge"],
+    "notes": "Puddling before transplanting is essential. Avoid water stress during flowering."
+  },
+  "cotton": {
+    "scientific_name": "Gossypium hirsutum",
+    "category": "fiber",
+    "season": "kharif",
+    "sowing_time": "April to May",
+    "harvest_time": "October to January",
+    "duration_days": 180,
+    "seed_rate_kg_per_acre": 3,
+    "irrigation": {
+      "total_count": "6 to 10",
+      "water_requirement_mm": 700,
+      "critical_stages": ["germination", "squaring", "flowering", "boll development"]
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 75,
+      "phosphorus_kg_per_acre": 40,
+      "potassium_kg_per_acre": 30,
+      "application": "Apply phosphorus and potassium at sowing. Split nitrogen in 3 applications."
+    },
+    "yield_potential_maunds_per_acre": 25,
+    "soil_type": ["loam", "sandy loam", "clay loam"],
+    "ph_range": "6.0 to 7.5",
+    "common_diseases": ["bacterial blight", "fusarium wilt", "leaf curl virus", "boll rot"],
+    "common_pests": ["whitefly", "pink bollworm", "American bollworm", "thrips", "mealybug"],
+    "notes": "Cotton is highly sensitive to waterlogging. Maintain field drainage. Monitor for whitefly which spreads leaf curl virus."
+  },
+  "sugarcane": {
+    "scientific_name": "Saccharum officinarum",
+    "category": "sugar",
+    "season": "spring / autumn",
+    "sowing_time": "February to March or October to November",
+    "harvest_time": "12 to 18 months after planting",
+    "duration_days": 365,
+    "seed_rate_kg_per_acre": 4000,
+    "irrigation": {
+      "total_count": "8 to 12",
+      "water_requirement_mm": 1500,
+      "critical_stages": ["germination", "tillering", "grand growth", "ripening"]
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 100,
+      "phosphorus_kg_per_acre": 50,
+      "potassium_kg_per_acre": 50,
+      "application": "Apply full phosphorus and potassium at planting. Split nitrogen in 3 doses."
+    },
+    "yield_potential_maunds_per_acre": 500,
+    "soil_type": ["loam", "clay loam", "silt loam"],
+    "ph_range": "6.0 to 7.5",
+    "common_diseases": ["red rot", "smut", "ratoon stunting disease", "grassy shoot"],
+    "common_pests": ["pyrilla", "stem borer", "mealybug", "scale insects"],
+    "notes": "Use disease-free seed material. Earthing up is essential to prevent lodging."
+  },
+  "maize": {
+    "scientific_name": "Zea mays",
+    "category": "cereal",
+    "season": "kharif / spring",
+    "sowing_time": "February to March or June to July",
+    "harvest_time": "90 to 120 days after sowing",
+    "duration_days": 110,
+    "seed_rate_kg_per_acre": 10,
+    "irrigation": {
+      "total_count": "4 to 5",
+      "water_requirement_mm": 500,
+      "critical_stages": ["germination", "knee high stage", "tasseling", "silking", "grain filling"]
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 80,
+      "phosphorus_kg_per_acre": 40,
+      "potassium_kg_per_acre": 25,
+      "application": "Apply half nitrogen at sowing and half at knee high stage."
+    },
+    "yield_potential_maunds_per_acre": 50,
+    "soil_type": ["loam", "sandy loam", "well-drained soil"],
+    "ph_range": "5.8 to 7.0",
+    "common_diseases": ["maize leaf blight", "stalk rot", "smut", "downy mildew"],
+    "common_pests": ["fall armyworm", "corn earworm", "aphids", "stem borer"],
+    "notes": "Maize cannot tolerate waterlogging. Ensure proper drainage. Tasseling and silking stages are most sensitive to water stress."
+  },
+  "sunflower": {
+    "scientific_name": "Helianthus annuus",
+    "category": "oilseed",
+    "season": "spring / autumn",
+    "sowing_time": "January to February or August to September",
+    "harvest_time": "90 to 100 days after sowing",
+    "duration_days": 95,
+    "seed_rate_kg_per_acre": 3,
+    "irrigation": {
+      "total_count": "4 to 5",
+      "water_requirement_mm": 400,
+      "critical_stages": ["germination", "vegetative growth", "heading", "seed filling"]
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 50,
+      "phosphorus_kg_per_acre": 40,
+      "boron_kg_per_acre": 1,
+      "application": "Apply boron before sowing to prevent hollow stem disorder."
+    },
+    "yield_potential_maunds_per_acre": 18,
+    "soil_type": ["loam", "sandy loam", "well-drained"],
+    "ph_range": "6.0 to 7.5",
+    "common_diseases": ["alternaria blight", "sclerotinia", "downy mildew", "phoma black stem"],
+    "common_pests": ["sunflower moth", "aphids", "thrips"],
+    "notes": "Boron deficiency causes hollow heart and poor seed set. Apply boron in foliar or soil application."
+  },
+  "potato": {
+    "scientific_name": "Solanum tuberosum",
+    "category": "vegetable",
+    "season": "rabi",
+    "sowing_time": "October to November",
+    "harvest_time": "February to March",
+    "duration_days": 90,
+    "seed_rate_kg_per_acre": 600,
+    "irrigation": {
+      "total_count": "5 to 7",
+      "water_requirement_mm": 500,
+      "critical_stages": ["emergence", "tuber initiation", "tuber bulking"]
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 80,
+      "phosphorus_kg_per_acre": 60,
+      "potassium_kg_per_acre": 80,
+      "application": "Potassium improves tuber quality. Apply full dose at planting."
+    },
+    "yield_potential_maunds_per_acre": 250,
+    "soil_type": ["sandy loam", "loam", "well-drained"],
+    "ph_range": "5.0 to 6.5",
+    "common_diseases": ["late blight", "early blight", "scab", "black leg", "mosaic virus"],
+    "common_pests": ["Colorado beetle", "aphids", "cut worm", "white grub"],
+    "notes": "Use certified seed tubers. Late blight spreads rapidly in humid and cool conditions. Monitor closely."
+  },
+  "tomato": {
+    "scientific_name": "Solanum lycopersicum",
+    "category": "vegetable",
+    "season": "spring / autumn",
+    "sowing_time": "September to October or January to February",
+    "harvest_time": "60 to 80 days after transplanting",
+    "duration_days": 120,
+    "seed_rate_kg_per_acre": 0.2,
+    "irrigation": {
+      "total_count": "frequent shallow irrigations",
+      "water_requirement_mm": 600,
+      "critical_stages": ["transplanting", "flowering", "fruit set", "fruit development"]
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 70,
+      "phosphorus_kg_per_acre": 50,
+      "potassium_kg_per_acre": 60,
+      "calcium_important": true,
+      "application": "Apply calcium to prevent blossom end rot. Fertigation preferred."
+    },
+    "yield_potential_maunds_per_acre": 200,
+    "soil_type": ["sandy loam", "loam", "well-drained"],
+    "ph_range": "6.0 to 7.0",
+    "common_diseases": ["early blight", "late blight", "bacterial wilt", "fusarium wilt", "mosaic virus"],
+    "common_pests": ["tomato fruit borer", "whitefly", "aphids", "thrips", "mites"],
+    "notes": "Irregular watering causes blossom end rot and fruit cracking. Maintain consistent soil moisture."
+  },
+  "onion": {
+    "scientific_name": "Allium cepa",
+    "category": "vegetable",
+    "season": "rabi / kharif",
+    "sowing_time": "October to November for rabi",
+    "harvest_time": "April to May",
+    "duration_days": 150,
+    "seed_rate_kg_per_acre": 5,
+    "irrigation": {
+      "total_count": "10 to 12",
+      "water_requirement_mm": 500,
+      "critical_stages": ["transplanting", "bulb initiation", "bulb development"],
+      "pre_harvest_stop_days": 15
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 60,
+      "phosphorus_kg_per_acre": 40,
+      "potassium_kg_per_acre": 50,
+      "sulfur_important": true
+    },
+    "yield_potential_maunds_per_acre": 150,
+    "soil_type": ["sandy loam", "loam"],
+    "ph_range": "6.0 to 7.0",
+    "common_diseases": ["purple blotch", "downy mildew", "neck rot", "smut"],
+    "common_pests": ["thrips", "onion fly", "stem and bulb nematode"],
+    "notes": "Stop irrigation 15 days before harvest to improve storage quality and skin color."
+  },
+  "chickpea": {
+    "scientific_name": "Cicer arietinum",
+    "category": "legume",
+    "season": "rabi",
+    "sowing_time": "October to November",
+    "harvest_time": "February to March",
+    "duration_days": 120,
+    "seed_rate_kg_per_acre": 30,
+    "irrigation": {
+      "total_count": "1 to 2",
+      "water_requirement_mm": 200,
+      "critical_stages": ["flowering", "pod filling"],
+      "notes": "Chickpea is largely rainfed. Excess moisture causes root rot."
+    },
+    "fertilizer": {
+      "nitrogen_kg_per_acre": 10,
+      "phosphorus_kg_per_acre": 35,
+      "rhizobium_inoculation": true,
+      "application": "Rhizobium seed treatment fixes atmospheric nitrogen. Minimal nitrogen needed."
+    },
+    "yield_potential_maunds_per_acre": 15,
+    "soil_type": ["sandy loam", "loam", "well-drained"],
+    "ph_range": "6.0 to 8.0",
+    "common_diseases": ["ascochyta blight", "fusarium wilt", "botrytis grey mold"],
+    "common_pests": ["pod borer", "aphids", "leaf miner"],
+    "notes": "Chickpea fixes atmospheric nitrogen and improves soil fertility. Avoid excess irrigation."
+  }
+}

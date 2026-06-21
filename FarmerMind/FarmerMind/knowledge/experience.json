@@ -1,0 +1,91 @@
+{
+  "general_wisdom": [
+    {
+      "topic": "soil_health",
+      "experience": "Healthy soil is the foundation of farming. A farmer who neglects soil organic matter will spend increasingly more on fertilizers each year. Add crop residues, farmyard manure, or green manure every season.",
+      "keywords": ["soil", "organic matter", "manure", "health"]
+    },
+    {
+      "topic": "observation",
+      "experience": "Walk your fields daily. Most problems caught early can be solved. Problems found late are often too expensive to fix. A daily 30-minute field walk saves more money than any input.",
+      "keywords": ["observation", "monitor", "walk", "inspect", "early detection"]
+    },
+    {
+      "topic": "water_management",
+      "experience": "More crops are damaged by excess water than by drought. Farmers often over-irrigate thinking more water means more yield. Proper drainage is as important as irrigation.",
+      "keywords": ["water", "over irrigate", "drainage", "excess water"]
+    },
+    {
+      "topic": "seed_quality",
+      "experience": "Never compromise on seed quality. Saving costs on seed is one of the most common farmer mistakes. Poor seed means poor germination, uneven crop stand, and reduced yield that cannot be corrected by any input.",
+      "keywords": ["seed", "certified", "quality", "germination"]
+    },
+    {
+      "topic": "pesticide_resistance",
+      "experience": "Rotating pesticide chemistry is critical. Using the same insecticide or fungicide season after season builds resistance in pests. Rotate between chemical groups every season.",
+      "keywords": ["pesticide", "resistance", "rotation", "chemistry"]
+    },
+    {
+      "topic": "record_keeping",
+      "experience": "Farmers who keep records consistently outperform those who rely on memory. Record dates of sowing, irrigation, fertilizer application, and costs. This data is invaluable for planning the next season.",
+      "keywords": ["records", "diary", "data", "planning"]
+    },
+    {
+      "topic": "market_timing",
+      "experience": "Producing a crop and selling at the right time are equally important. Storing produce when prices are low and selling when prices recover requires storage planning and financial discipline.",
+      "keywords": ["market", "price", "sell", "storage", "timing"]
+    }
+  ],
+  "crop_specific_experience": {
+    "wheat": [
+      {
+        "tip": "The first irrigation of wheat at crown root initiation stage (20 to 25 days after sowing) is the most critical irrigation. Missing it reduces yield by 15 to 20 percent regardless of later irrigations.",
+        "keywords": ["first irrigation", "crown root", "critical"]
+      },
+      {
+        "tip": "Apply half the nitrogen dose at sowing and the remaining half at first irrigation. Splitting nitrogen improves efficiency and reduces nitrogen loss through leaching.",
+        "keywords": ["nitrogen", "split", "application"]
+      }
+    ],
+    "rice": [
+      {
+        "tip": "Do not allow the field to dry out during flowering and grain filling. Even one day of water stress at heading can reduce yield significantly through sterility.",
+        "keywords": ["water stress", "flowering", "heading", "sterility"]
+      },
+      {
+        "tip": "Zinc deficiency in rice appears 2 to 3 weeks after transplanting as bronze discoloration. Apply zinc sulfate before transplanting on zinc-deficient soils.",
+        "keywords": ["zinc", "deficiency", "bronze", "transplanting"]
+      }
+    ],
+    "cotton": [
+      {
+        "tip": "Monitor for whitefly from early June onward. Whitefly transmits cotton leaf curl virus which has no cure. Preventive control is the only strategy.",
+        "keywords": ["whitefly", "leaf curl", "virus", "monitor"]
+      },
+      {
+        "tip": "Avoid irrigation during squaring stage as it delays boll set. Time irrigations carefully based on crop stage.",
+        "keywords": ["irrigation", "squaring", "boll", "timing"]
+      }
+    ],
+    "sugarcane": [
+      {
+        "tip": "Use at least 3 eye setts for planting. Single eye setts have lower germination. Proper planting depth of 8 to 10 cm improves stands significantly.",
+        "keywords": ["setts", "planting", "germination", "depth"]
+      }
+    ]
+  },
+  "market_knowledge": {
+    "price_factors": [
+      "Arrival quantity at market determines price more than any other factor",
+      "Price drops sharply at harvest season due to oversupply",
+      "Storage and delayed selling can increase returns by 20 to 40 percent",
+      "Quality grading directly impacts price received",
+      "Distance to market affects net return due to transport cost"
+    ],
+    "tips": [
+      "Check government support prices before selling below market",
+      "Form or join a farmer group for collective bargaining power",
+      "Invest in grain bags or storage to avoid distress selling"
+    ]
+  }
+}

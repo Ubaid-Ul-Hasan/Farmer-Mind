@@ -1,0 +1,114 @@
+{
+  "yellow_leaves": {
+    "crop": ["wheat", "rice", "maize", "cotton", "general"],
+    "causes": [
+      "Nitrogen deficiency",
+      "Iron deficiency (interveinal chlorosis)",
+      "Waterlogging and poor drainage",
+      "Root disease or rot",
+      "Sulfur deficiency"
+    ],
+    "diagnosis": "Check soil moisture first. If waterlogged, improve drainage. Apply urea if nitrogen is deficient. Use ferrous sulfate spray for iron chlorosis.",
+    "severity": "moderate"
+  },
+  "wilting": {
+    "crop": ["cotton", "tomato", "potato", "general"],
+    "causes": [
+      "Water stress or drought",
+      "Root rot due to overwatering",
+      "Fusarium or Verticillium wilt",
+      "Nematode damage to roots",
+      "Extreme heat"
+    ],
+    "diagnosis": "Check soil moisture. If dry, irrigate. If wet with discolored roots, it is root rot. Send sample to lab for fungal wilt confirmation.",
+    "severity": "high"
+  },
+  "leaf_spots": {
+    "crop": ["wheat", "rice", "maize", "potato", "tomato"],
+    "causes": [
+      "Fungal infection such as alternaria or helminthosporium",
+      "Bacterial infection",
+      "Nutrient deficiency",
+      "Chemical burn from pesticide overdose"
+    ],
+    "diagnosis": "Observe spot pattern and color. Brown circular spots usually fungal. Angular water-soaked spots usually bacterial. Apply appropriate fungicide.",
+    "severity": "moderate"
+  },
+  "stunted_growth": {
+    "crop": ["general"],
+    "causes": [
+      "Poor germination and weak seedlings",
+      "Nutrient deficiency especially nitrogen and zinc",
+      "Root nematode damage",
+      "Compacted soil limiting root growth",
+      "Virus infection"
+    ],
+    "diagnosis": "Uproot a few plants and inspect roots. Apply zinc sulfate and nitrogen. Test soil compaction by inserting a metal rod.",
+    "severity": "moderate"
+  },
+  "white_powdery_coating": {
+    "crop": ["wheat", "peas", "cucurbits"],
+    "causes": [
+      "Powdery mildew fungal disease",
+      "High humidity and moderate temperature",
+      "Dense plant canopy with poor air circulation"
+    ],
+    "diagnosis": "This is powdery mildew. Spray sulfur-based fungicide or systemic fungicide. Improve plant spacing.",
+    "severity": "moderate"
+  },
+  "boll_dropping": {
+    "crop": ["cotton"],
+    "causes": [
+      "Pink bollworm infestation",
+      "American bollworm damage",
+      "Water stress at flowering",
+      "Extreme heat above 40 degrees Celsius",
+      "Nitrogen excess causing vegetative growth"
+    ],
+    "diagnosis": "Open dropped bolls and inspect for larvae. Apply appropriate insecticide. Check irrigation schedule.",
+    "severity": "high"
+  },
+  "grain_shriveling": {
+    "crop": ["wheat", "rice", "maize"],
+    "causes": [
+      "Water stress during grain filling",
+      "High temperature during ripening",
+      "Disease infection during grain filling",
+      "Premature harvest"
+    ],
+    "diagnosis": "Water stress during grain fill is most common. Ensure irrigation at grain filling stage. Check for disease.",
+    "severity": "high"
+  },
+  "lodging": {
+    "crop": ["wheat", "rice", "maize", "sugarcane"],
+    "causes": [
+      "Excess nitrogen causing weak stems",
+      "Heavy rainfall and wind",
+      "Dense plant population",
+      "Shallow rooting"
+    ],
+    "diagnosis": "Reduce nitrogen rate. Avoid excess irrigation. Use recommended plant population. Apply potassium which strengthens stems.",
+    "severity": "high"
+  },
+  "root_rot": {
+    "crop": ["general"],
+    "causes": [
+      "Waterlogging and poor drainage",
+      "Soil-borne fungal pathogens",
+      "Damaged roots from tillage",
+      "High soil pH reducing nutrient uptake"
+    ],
+    "diagnosis": "Improve field drainage. Avoid excess irrigation. Apply soil fungicide as drench. Test soil pH.",
+    "severity": "high"
+  },
+  "late_blight_potato": {
+    "crop": ["potato", "tomato"],
+    "causes": [
+      "Phytophthora infestans pathogen",
+      "Cool and humid weather",
+      "Infected seed material"
+    ],
+    "diagnosis": "Spray copper-based or systemic fungicide immediately. Destroy infected plant material. Use resistant varieties. Do not delay.",
+    "severity": "critical"
+  }
+}
